@@ -145,14 +145,7 @@ public class Main {
 					JOptionPane.showMessageDialog(null, "Please connect to the database first!", "Warning",
 							JOptionPane.WARNING_MESSAGE);
 
-					int answer = JOptionPane.showConfirmDialog(null, "Do you want to continue without a database?",
-							"No database", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-
-					if (answer != JOptionPane.YES_OPTION) {
-
-						return;
-					}
-
+					return;
 				}
 
 				Search searchScreen = new Search();
