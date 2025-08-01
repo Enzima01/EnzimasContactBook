@@ -39,7 +39,6 @@ CREATE TABLE register_table (
   birthdate VARCHAR(20),
   children VARCHAR(10)
 );
-
 ##
 ## EN 🇺🇸 |
 
