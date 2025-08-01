@@ -40,6 +40,7 @@ CREATE TABLE register_table (
   children VARCHAR(10)
 );
 
+##
 ## EN 🇺🇸 |
 
 **Enzima's Contact** Book is a desktop application developed in Java using Swing for the GUI and MySQL for the database. It allows users to manage contact information including name, phone, email, address, birth date, and number of children.
