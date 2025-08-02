@@ -89,11 +89,11 @@ public class Search extends JFrame {
 
 		this.addWindowFocusListener(new java.awt.event.WindowFocusListener() {
 			public void windowGainedFocus(java.awt.event.WindowEvent e) {
-				LoadItens(); // atualiza os dados toda vez que a tela recebe foco
+				LoadItens(); 
 			}
 
 			public void windowLostFocus(java.awt.event.WindowEvent e) {
-				// Não precisa fazer nada aqui
+				
 			}
 		});
 
@@ -294,3 +294,4 @@ public class Search extends JFrame {
 
 	}
 }
+
