@@ -30,6 +30,7 @@ import Class.DbOperations;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.Toolkit;
+import javax.swing.ScrollPaneConstants;
 
 public class Search extends JFrame {
 
@@ -153,6 +154,8 @@ public class Search extends JFrame {
 		contentPane.add(txtItenQuantity);
 
 		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 		scrollPane.setBounds(10, 146, 764, 344);
 		contentPane.add(scrollPane);
 
