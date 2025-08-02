@@ -164,13 +164,13 @@ public class Register extends JFrame {
 				String birthdate = txtBirthdate.getText().trim();
 				String children = comboBox_Children.getSelectedItem().toString();
 
-				// Verificação
+				
 				if (name.isEmpty() || telephone.isEmpty() || email.isEmpty() || address.isEmpty() || birthdate.isEmpty()
 						|| children.equals("-")) {
 
 					JOptionPane.showMessageDialog(null, "Please fill in all required fields!", "Missing Information",
 							JOptionPane.WARNING_MESSAGE);
-					return; // não continua o salvamento
+					return; 
 				}
 
 				try {
@@ -229,3 +229,4 @@ public class Register extends JFrame {
 		return txtBirthdate;
 	}
 }
+
