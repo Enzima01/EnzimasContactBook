@@ -57,6 +57,7 @@ public class EditDataNoDb extends JFrame {
 		setTitle("Edit Data");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 700, 440);
+		setResizable(false);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
@@ -207,3 +208,4 @@ public class EditDataNoDb extends JFrame {
 	}
 
 }
+
