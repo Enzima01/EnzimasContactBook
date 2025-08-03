@@ -63,6 +63,7 @@ public class SearchNoDb extends JFrame {
 		setTitle("Search");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		setBounds(100, 100, 800, 540);
+		setResizable(false);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
@@ -238,5 +239,6 @@ public class SearchNoDb extends JFrame {
 	
 
 }
+
 
 
